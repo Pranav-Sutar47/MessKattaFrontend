@@ -85,7 +85,7 @@ export default function MenuDetails() {
                 setDisplay(true);
             }else 
                 showToast(json.error,'error');
-            console.log(json);
+            //console.log(json);
         }catch(err){
             console.error('Error at Review Submit',err);
         }

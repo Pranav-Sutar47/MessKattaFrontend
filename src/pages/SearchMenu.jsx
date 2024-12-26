@@ -69,6 +69,7 @@ export default function SearchMenu() {
                 variant={"outline"}
                 size={"lg"}
                 required
+                minLength={3}
                 colorPalette={'teal'}
                 width='full'
                 {...register("name", { required: "Food name is required" })}

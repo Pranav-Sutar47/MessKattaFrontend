@@ -75,7 +75,6 @@ export default function SearchMenu() {
                 {...register("name", { required: "Food name is required" })}
               />{" "}   
 
-
             <Button variant="subtle" backgroundColor={'#fb923c'} color={'white'} type="submit">
               {load >= 1 ? <Spinner size={'sm'}/> : 'Search'}
             </Button>

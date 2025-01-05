@@ -83,7 +83,7 @@ export default function Login() {
       </h1>
       <div className="mt-3 d-flex justify-content-center align-items-center p-2" data-aos='fade-up'>
         
-          <form onSubmit={handleSubmit(submit)} className="p-sm-3 p-md-3 border shadow-lg rounded" style={{backgroundColor:"white"}}>   
+          <form onSubmit={handleSubmit(submit)} className="p-3 border shadow-lg rounded" style={{backgroundColor:"white"}}>   
 
             <Field label="Email address"
               invalid={!!errors.password}
